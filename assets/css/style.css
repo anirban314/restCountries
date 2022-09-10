@@ -1,5 +1,36 @@
 body {
 	font-family: 'Jost', sans-serif;
 	font-size: 24px;
-	color: #000;
+	font: #000;
+	align-items: center;
+	background-color: aliceblue;
+	margin: 10%;
+	width: auto;
+}
+
+button {
+	width: 100%;
+}
+
+input[type=text], select {
+	font-family: 'Jost', sans-serif;
+	font-size: 24px;
+  width: 100%;
+  padding: 20px 20px;
+  border: 0px;
+  border-radius: 16px;
+	box-shadow: #63636344 0px 2px 8px 0px;
+	
+}
+
+textarea, select {
+	font-family: 'Jost', sans-serif;
+	font-size: 18px;
+  width: 100%;
+	min-height: 500px;
+	margin: 60px 0px;
+  padding: 20px 20px;
+  border: 0px;
+  border-radius: 16px;
+	box-shadow: #63636344 0px 2px 8px 0px;
 }
