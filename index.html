@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<title>Rest Countries</title>
 	
@@ -24,13 +23,14 @@
 	<script src="assets/js/main.js"></script>
 
 	<div id="search-bar">
-		<input id="search-box" type="text" name="country" placeholder="Give me the country's name here..." required>
+			<input id="tb-search" class="search-box" type="text" placeholder="Hey! Give me the country's name here..." required>
+			<button id="btn-search" class="search-button" type="button">Discover Nation</button>
 	</div>
 
-	<textarea	id="display-box" name="results" placeholder="Response will be displayed here..." readonly></textarea>
+	<div id="search-response">
+		<textarea	id="tb-response" class="response-area" placeholder="Response will be displayed here..." readonly></textarea>
+	</div>
 
 
-	
 </body>
-
 </html>

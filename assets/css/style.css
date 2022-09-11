@@ -2,35 +2,63 @@ body {
 	font-family: 'Jost', sans-serif;
 	font-size: 24px;
 	font: #000;
-	align-items: center;
 	background-color: aliceblue;
-	margin: 10%;
-	width: auto;
+	margin: 5%;
 }
 
-button {
-	width: 100%;
+
+#search-bar {
+	align-self: center;
+	align-content: center;
+	padding: 40px;
 }
 
-input[type=text], select {
+
+#search-bar input {
+	font-family: 'Jost', sans-serif;
+	font-size: 24px;	
+  width: 78%;
+  padding: 20px;
+  border: 2px solid #ccc;
+	border-top-left-radius: 16px;
+	border-bottom-left-radius: 16px;
+}
+
+
+#search-bar button {
 	font-family: 'Jost', sans-serif;
 	font-size: 24px;
-  width: 100%;
-  padding: 20px 20px;
-  border: 0px;
-  border-radius: 16px;
-	box-shadow: #63636344 0px 2px 8px 0px;
-	
+	font-weight: 500;
+	color: #00f;
+	background-color: #fff;
+	width: 18%;
+	padding: 20px 20px;
+	border: 2px solid #aaf;
+	border-top-right-radius: 16px;
+	border-bottom-right-radius: 16px;
+}
+#search-bar button:hover {
+	border: 2px solid #00f;
+}
+#search-bar button:active {
+	color: #fff;
+	background-color: #00f;
+	border: 2px solid #00f;
 }
 
-textarea, select {
+
+#search-response {
+	align-self: center;
+	align-content: center;
+	padding: 40px;
+}
+#search-response textarea {
 	font-family: 'Jost', sans-serif;
 	font-size: 18px;
-  width: 100%;
+  width: 96.5%;
 	min-height: 500px;
-	margin: 60px 0px;
+	resize: vertical;
   padding: 20px 20px;
-  border: 0px;
+  border: 2px solid #ccc;
   border-radius: 16px;
-	box-shadow: #63636344 0px 2px 8px 0px;
 }
