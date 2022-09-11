@@ -20,17 +20,17 @@
 </head>
 
 <body>
-	<script src="assets/js/main.js"></script>
 
 	<div id="search-bar">
-			<input id="tb-search" class="search-box" type="text" placeholder="Hey! Give me the country's name here..." required>
-			<button id="btn-search" class="search-button" type="button">Discover Nation</button>
+		<input id="tb-search" class="search-box" placeholder="Hey! Give me the country's name here..." required>
+		<button id="btn-search" class="search-button" onclick="getCountry()">Discover Nation</button>
 	</div>
 
 	<div id="search-response">
 		<textarea	id="tb-response" class="response-area" placeholder="Response will be displayed here..." readonly></textarea>
 	</div>
 
-
+	<!-- JS Script -->
+	<script src="assets/js/main.js"></script>
 </body>
 </html>
