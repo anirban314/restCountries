@@ -1,41 +1,40 @@
 body {
 	font-family: 'Jost', sans-serif;
 	font-size: 24px;
-	font: #000;
+	color: #000;
 	background-color: aliceblue;
+	text-align: center;
 	margin: 5%;
 }
 
 
 #search-bar {
-	align-self: center;
-	align-content: center;
-	padding: 40px;
+	width: auto;
+	padding: 1%;
 }
-
 
 #search-bar input {
-	font-family: 'Jost', sans-serif;
-	font-size: 24px;	
-  width: 78%;
-  padding: 20px;
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+  width: 25%;
+  padding: inherit;
   border: 2px solid #ccc;
-	border-top-left-radius: 16px;
-	border-bottom-left-radius: 16px;
+	border-top-left-radius: 64px;
+	border-bottom-left-radius: 64px;
 }
 
-
 #search-bar button {
-	font-family: 'Jost', sans-serif;
-	font-size: 24px;
+	font-family: inherit;
+	font-size: inherit;
 	font-weight: 500;
 	color: #00f;
+  width: 10%;
+  padding: inherit;
 	background-color: #fff;
-	width: 18%;
-	padding: 20px 20px;
 	border: 2px solid #aaf;
-	border-top-right-radius: 16px;
-	border-bottom-right-radius: 16px;
+	border-top-right-radius: 64px;
+	border-bottom-right-radius: 64px;
 }
 #search-bar button:hover {
 	border: 2px solid #00f;
@@ -48,17 +47,17 @@ body {
 
 
 #search-response {
-	align-self: center;
-	align-content: center;
-	padding: 40px;
+	width: auto;
+	padding: 1%;
 }
 #search-response textarea {
-	font-family: 'Jost', sans-serif;
+	font-family: inherit;
 	font-size: 18px;
-  width: 96.5%;
+	color: inherit;
+  width: 98%;
 	min-height: 500px;
-	resize: vertical;
-  padding: 20px 20px;
+	resize: none;
+  padding: inherit;
   border: 2px solid #ccc;
   border-radius: 16px;
 }
